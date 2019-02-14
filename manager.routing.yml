@@ -1,0 +1,6 @@
+hello_world:
+    path: /manager
+    defaults:
+        _controller: Drupal\manager\Controller\ManagerController::hello
+    requirements:
+        _permission: 'access content'
